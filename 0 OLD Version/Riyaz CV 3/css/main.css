@@ -90,13 +90,6 @@ footer a:not(.nav-link) {
   text-decoration: none;
   cursor: pointer; }
 
-/* footer social icons small tweak */
-.footer-nav .nav-link { font-size: 1.05rem; color: inherit; padding: 0.35rem 0.6rem; }
-.footer-nav .nav-link i { vertical-align: middle; }
-.header-social .nav-link { padding: 0.25rem 0.45rem; }
-/* ensure consistent hover color */
-.footer-nav .nav-link:hover, .header-social .nav-link:hover { color: #0a66c2; } /* LinkedIn-blue accent on hover */
-
 @media (min-width: 48em) {
   .site-title {
     float: left; }
@@ -150,5 +143,3 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
-
-
