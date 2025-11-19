@@ -8,6 +8,41 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.site-header');
   const navLinks = Array.from(document.querySelectorAll('.site-nav .nav-link[href^="#"]'));
   const backToTop = document.getElementById('backToTop');
+  const themeToggle = document.getElementById('themeToggle');
+
+  // Theme Management
+  const initTheme = () => {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+  };
+
+  const updateThemeIcon = (theme) => {
+    if (themeToggle) {
+      const icon = themeToggle.querySelector('i');
+      if (theme === 'dark') {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    }
+  };
+
+  const toggleTheme = () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+  };
+
+  initTheme();
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', toggleTheme);
+  }
 
   if (header) {
     const toggleHeaderState = () => {
