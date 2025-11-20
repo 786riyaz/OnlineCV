@@ -308,7 +308,11 @@ li + li {
 }
 
 .cover {
-  height: 500px;
+  height: clamp(280px, 50vw, 500px);
+  /* height: 500px; */
+  position: relative;
+  border-radius: 1.25rem;
+  overflow: hidden;
 }
 
 .cover > img {
@@ -316,16 +320,18 @@ li + li {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.cover {
-  position: relative;
+  border-radius: 1.25rem;
+  display: block;
 }
 
 .cover .mask {
   position: absolute;
   inset: 0;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25rem;
 }
 
 .avatar {
@@ -383,7 +389,7 @@ footer a:not(.nav-link) {
 }
 
 .form-label {
-  color: var(--text-secondary);
+  color: var(--text-secondary) !important;
   transition: color 0.3s ease;
 }
 
@@ -771,9 +777,27 @@ p, li, span, a {
   }
 }
 
+/* Hide header background image on smaller screens */
+@media (max-width: 769px) {
+  .cover > img {
+    display: none !important;
+  }
+  
+  .cover {
+    background-color: var(--bg-secondary);
+    min-height: 280px;
+  }
+  
+  .cover .mask {
+    background-color: rgba(15, 23, 42, 0.7) !important;
+    /* background-color: var(--bg-primary) !important; */
+    backdrop-filter: blur(2px);
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .cover {
-    height: 420px;
+    height: 450px;
   }
   .p-5 {
     padding: 3rem 2.25rem !important;
