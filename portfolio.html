@@ -20,6 +20,26 @@
       [data-aos] { opacity: 1 !important; transform: translate(0) scale(1) !important; }
     </style>
   </noscript>
+  <script>
+    (function(){
+      try {
+        // Force dark theme as default and persist it
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        function applyBodyDark() {
+          if (document.body) {
+            document.body.classList.remove('bg-light');
+            document.body.classList.add('bg-dark');
+          }
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', applyBodyDark);
+        } else {
+          applyBodyDark();
+        }
+      } catch (e) { /* silent fail */ }
+    })();
+  </script>
 </head>
 <body class="bg-light" id="top">
   <header class="d-print-none site-header">
