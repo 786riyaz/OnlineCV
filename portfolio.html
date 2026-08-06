@@ -53,6 +53,7 @@
               <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#services" title="Services"><span class="menu-title">Services</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects" title="Projects"><span class="menu-title">Projects</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a></li>
               <li class="nav-item"><button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme"><i class="fas fa-moon"></i></button></li>
             </ul>
@@ -113,7 +114,7 @@
         <div class="row g-4">
           <div class="col-md-6" data-aos="zoom-in" data-aos-delay="0">
             <div class="card h-100 shadow-sm">
-              <img src="images/Project Images/Product Commerce Framework.png" class="card-img-top" alt="PCF Project">
+              <img src="images/Project_Images/Product Commerce Framework.png" class="card-img-top" alt="PCF Project">
               <div class="card-body">
                 <div class="project-tags">
                   <span class="project-tag">Conversational AI</span>
@@ -128,7 +129,7 @@
           </div>
           <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="card h-100 shadow-sm">
-              <img src="images/Project Images/Cognitive Search.png" class="card-img-top" alt="Cognitive Search">
+              <img src="images/Project_Images/Cognitive Search.png" class="card-img-top" alt="Cognitive Search">
               <div class="card-body">
                 <div class="project-tags">
                   <span class="project-tag">Search</span>
@@ -143,7 +144,7 @@
           </div>
           <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="card h-100 shadow-sm">
-              <img src="images/Project Images/LEAP.png" class="card-img-top" alt="LEAP">
+              <img src="images/Project_Images/LEAP.png" class="card-img-top" alt="LEAP">
               <div class="card-body">
                 <div class="project-tags">
                   <span class="project-tag">Automation</span>
@@ -158,7 +159,7 @@
           </div>
           <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="card h-100 shadow-sm">
-              <img src="images/Project Images/Smart City.png" class="card-img-top" alt="Smart City">
+              <img src="images/Project_Images/Smart City.png" class="card-img-top" alt="Smart City">
               <div class="card-body">
                 <div class="project-tags">
                   <span class="project-tag">IoT</span>
@@ -174,6 +175,323 @@
         </div>
       </div>
 
+      <div class="shadow-1-strong bg-white my-5 p-5 section-panel" id="projects">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4">
+          <h2 class="h2 fw-light mb-3 mb-md-0 section-heading">
+            <strong><span class="text-decoration-underline">Projects Showcase</span></strong>
+          </h2>
+          <p class="text-muted mb-0">Web • AI • Mobile • IoT</p>
+        </div>
+
+        <div class="row g-4" id="projectsGrid"><!-- cards injected by JS from project_configuration.json --></div>
+      </div>
+
+      <script>
+      (function () {
+        // Category-based gradient palette (falls back cyclically for new categories)
+        var GRADIENTS = [
+          ['#0d6efd', '#6610f2'],
+          ['#198754', '#20c997'],
+          ['#fd7e14', '#ffc107'],
+          ['#6f42c1', '#d63384'],
+          ['#20c997', '#0dcaf0'],
+          ['#dc3545', '#fd7e14'],
+          ['#6610f2', '#0d6efd'],
+          ['#0f766e', '#14b8a6'],
+          ['#212529', '#343a40'],
+          ['#495057', '#adb5bd']
+        ];
+        var gradientMap = {};
+        var gradientCursor = 0;
+        var projectImagesMap = {}; // id -> { name: string, images: string[] }
+        function gradientFor(id) {
+          if (!gradientMap[id]) {
+            gradientMap[id] = GRADIENTS[gradientCursor % GRADIENTS.length];
+            gradientCursor++;
+          }
+          return gradientMap[id];
+        }
+
+        function escapeHtml(str) {
+          return String(str == null ? '' : str).replace(/[&<>"']/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+          });
+        }
+
+        function buildCard(project) {
+          var grad = gradientFor(project.id);
+          var gradCss = 'linear-gradient(135deg, ' + grad[0] + ', ' + grad[1] + ')';
+          var images = Array.isArray(project.images) ? project.images : [];
+          var hasImages = images.length > 0;
+          var name = escapeHtml(project.name);
+
+          if (hasImages) {
+            projectImagesMap[project.id] = { name: project.name, images: images };
+          }
+
+          var imagesHtml = images.map(function (src, i) {
+            return '<img class="project-carousel-img" data-idx="' + i + '" src="' + src + '" alt="' + name + '" ' +
+              'style="height:180px; width:100%; position:absolute; top:0; left:0; ' +
+              'opacity:' + (i === 0 ? '1' : '0') + '; transition:opacity .5s ease;" ' +
+              'onerror="this.onerror=null; this.style.display=\'none\';">';
+          }).join('');
+
+          var dotsHtml = images.length > 1
+            ? '<div class="project-carousel-dots" style="position:absolute; bottom:8px; left:0; right:0; display:flex; justify-content:center; gap:6px; z-index:2;">' +
+                images.map(function (_, i) {
+                  return '<span class="project-carousel-dot" data-idx="' + i + '" style="width:7px; height:7px; border-radius:50%; ' +
+                    'background:' + (i === 0 ? '#fff' : 'rgba(255,255,255,0.5)') + '; cursor:pointer; box-shadow:0 0 2px rgba(0,0,0,0.6);"></span>';
+                }).join('') +
+              '</div>'
+            : '';
+
+          var arrowsHtml = images.length > 1
+            ? '<button type="button" class="project-carousel-arrow prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>' +
+              '<button type="button" class="project-carousel-arrow next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>'
+            : '';
+
+          var expandHintHtml = hasImages
+            ? '<span class="project-expand-hint"><i class="fas fa-expand"></i></span>'
+            : '';
+
+          var fallbackHtml = '<div class="project-thumb-fallback" style="height:180px; display:' + (hasImages ? 'none' : 'flex') + '; ' +
+            'align-items:center; justify-content:center; background:' + gradCss + '; color:white; font-weight:700; text-align:center; padding:16px;">' +
+            escapeHtml(project.imageFallback || project.name) + '</div>';
+
+          var tagsHtml = (project.technologies || []).map(function (t) {
+            return '<span class="project-tag">' + escapeHtml(t) + '</span>';
+          }).join('');
+
+          var linksArr = project.links || [];
+          var linksHtml = linksArr.map(function (link, i) {
+            var cls = 'btn btn-sm btn-outline-info' + (i < linksArr.length - 1 ? ' me-2' : '');
+            return '<a class="' + cls + '" href="' + escapeHtml(link.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(link.label) + '</a>';
+          }).join('');
+          var linksBlock = linksArr.length
+            ? '<div class="mt-3">' + linksHtml + '</div>'
+            : '';
+
+          return (
+            '<div class="col-lg-6">' +
+              '<div class="card h-100 shadow-sm border-0 overflow-hidden">' +
+                '<div class="project-carousel-wrap" data-project-id="' + escapeHtml(project.id) + '" style="position:relative; height:180px; width:100%; overflow:hidden; background:#000;">' +
+                  imagesHtml +
+                  fallbackHtml +
+                  dotsHtml +
+                  arrowsHtml +
+                  expandHintHtml +
+                '</div>' +
+                '<div class="card-body">' +
+                  '<div class="d-flex justify-content-between align-items-start mb-2">' +
+                    '<h5 class="card-title mb-0"><strong>' + name + '</strong></h5>' +
+                    '<span class="badge bg-info text-dark">' + escapeHtml(project.category) + '</span>' +
+                  '</div>' +
+                  '<p class="card-text mb-3">' + escapeHtml(project.summary) + '</p>' +
+                  '<div class="project-tags">' + tagsHtml + '</div>' +
+                  linksBlock +
+                '</div>' +
+              '</div>' +
+            '</div>'
+          );
+        }
+
+        function setupCardCarousels() {
+          var wraps = document.querySelectorAll('.project-carousel-wrap');
+          wraps.forEach(function (wrap) {
+            var imgs = wrap.querySelectorAll('.project-carousel-img');
+            var projectId = wrap.getAttribute('data-project-id');
+
+            // Clicking the thumbnail (but not an arrow/dot) opens the lightbox.
+            if (imgs.length) {
+              wrap.addEventListener('click', function (event) {
+                if (event.target.closest('.project-carousel-arrow, .project-carousel-dot')) return;
+                var currentIdx = 0;
+                imgs.forEach(function (img, i) {
+                  if (img.style.opacity === '1') currentIdx = i;
+                });
+                openLightbox(projectId, currentIdx);
+              });
+            }
+
+            if (imgs.length <= 1) return;
+
+            var dots = wrap.querySelectorAll('.project-carousel-dot');
+            var prevBtn = wrap.querySelector('.project-carousel-arrow.prev');
+            var nextBtn = wrap.querySelector('.project-carousel-arrow.next');
+            var current = 0;
+            var timer = null;
+
+            function goTo(idx) {
+              current = (idx + imgs.length) % imgs.length;
+              imgs.forEach(function (img, i) { img.style.opacity = i === current ? '1' : '0'; });
+              dots.forEach(function (dot, i) {
+                dot.style.background = i === current ? '#fff' : 'rgba(255,255,255,0.5)';
+              });
+            }
+
+            function start() {
+              stop();
+              timer = setInterval(function () { goTo(current + 1); }, 3500);
+            }
+            function stop() {
+              if (timer) { clearInterval(timer); timer = null; }
+            }
+
+            dots.forEach(function (dot) {
+              dot.addEventListener('click', function (event) {
+                event.stopPropagation();
+                goTo(parseInt(dot.getAttribute('data-idx'), 10));
+                start();
+              });
+            });
+
+            if (prevBtn) {
+              prevBtn.addEventListener('click', function (event) {
+                event.stopPropagation();
+                goTo(current - 1);
+                start();
+              });
+            }
+            if (nextBtn) {
+              nextBtn.addEventListener('click', function (event) {
+                event.stopPropagation();
+                goTo(current + 1);
+                start();
+              });
+            }
+
+            wrap.addEventListener('mouseenter', stop);
+            wrap.addEventListener('mouseleave', start);
+
+            start();
+          });
+        }
+
+        // ===== Lightbox (expanded view, manual navigation only) =====
+        var lightboxState = { projectId: null, index: 0 };
+        var lightboxEl = null;
+
+        function ensureLightbox() {
+          if (lightboxEl) return lightboxEl;
+          var el = document.createElement('div');
+          el.className = 'lightbox-overlay';
+          el.id = 'projectLightbox';
+          el.innerHTML =
+            '<div class="lightbox-content">' +
+              '<div class="lightbox-stage">' +
+                '<button type="button" class="lightbox-arrow prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>' +
+                '<img class="lightbox-img" src="" alt="">' +
+                '<button type="button" class="lightbox-arrow next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>' +
+                '<button type="button" class="lightbox-close" aria-label="Close"><i class="fas fa-times"></i></button>' +
+              '</div>' +
+              '<div class="lightbox-caption">' +
+                '<div class="lightbox-title"></div>' +
+                '<div class="lightbox-counter"></div>' +
+              '</div>' +
+              '<div class="lightbox-dots"></div>' +
+            '</div>';
+          document.body.appendChild(el);
+          lightboxEl = el;
+
+          el.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+          el.querySelector('.lightbox-arrow.prev').addEventListener('click', function (e) {
+            e.stopPropagation();
+            lightboxStep(-1);
+          });
+          el.querySelector('.lightbox-arrow.next').addEventListener('click', function (e) {
+            e.stopPropagation();
+            lightboxStep(1);
+          });
+          // Click on the dark backdrop (outside the image/content) closes it.
+          el.addEventListener('click', function (event) {
+            if (event.target === el) closeLightbox();
+          });
+
+          document.addEventListener('keydown', function (event) {
+            if (!el.classList.contains('show')) return;
+            if (event.key === 'Escape') closeLightbox();
+            if (event.key === 'ArrowLeft') lightboxStep(-1);
+            if (event.key === 'ArrowRight') lightboxStep(1);
+          });
+
+          return el;
+        }
+
+        function renderLightboxFrame() {
+          var data = projectImagesMap[lightboxState.projectId];
+          if (!data) return;
+          var el = ensureLightbox();
+          var img = el.querySelector('.lightbox-img');
+          var title = el.querySelector('.lightbox-title');
+          var counter = el.querySelector('.lightbox-counter');
+          var dotsWrap = el.querySelector('.lightbox-dots');
+          var prevBtn = el.querySelector('.lightbox-arrow.prev');
+          var nextBtn = el.querySelector('.lightbox-arrow.next');
+
+          img.src = data.images[lightboxState.index];
+          img.alt = data.name;
+          title.textContent = data.name;
+          counter.textContent = (lightboxState.index + 1) + ' / ' + data.images.length;
+
+          var multi = data.images.length > 1;
+          prevBtn.style.display = multi ? 'flex' : 'none';
+          nextBtn.style.display = multi ? 'flex' : 'none';
+
+          dotsWrap.innerHTML = multi
+            ? data.images.map(function (_, i) {
+                return '<span class="lightbox-dot' + (i === lightboxState.index ? ' active' : '') + '" data-idx="' + i + '"></span>';
+              }).join('')
+            : '';
+
+          Array.from(dotsWrap.querySelectorAll('.lightbox-dot')).forEach(function (dot) {
+            dot.addEventListener('click', function (event) {
+              event.stopPropagation();
+              lightboxState.index = parseInt(dot.getAttribute('data-idx'), 10);
+              renderLightboxFrame();
+            });
+          });
+        }
+
+        function openLightbox(projectId, startIndex) {
+          var data = projectImagesMap[projectId];
+          if (!data || !data.images.length) return;
+          lightboxState.projectId = projectId;
+          lightboxState.index = ((startIndex || 0) + data.images.length) % data.images.length;
+          var el = ensureLightbox();
+          renderLightboxFrame();
+          el.classList.add('show');
+          document.body.classList.add('lightbox-open');
+        }
+
+        function closeLightbox() {
+          if (!lightboxEl) return;
+          lightboxEl.classList.remove('show');
+          document.body.classList.remove('lightbox-open');
+        }
+
+        function lightboxStep(delta) {
+          var data = projectImagesMap[lightboxState.projectId];
+          if (!data || data.images.length <= 1) return;
+          lightboxState.index = (lightboxState.index + delta + data.images.length) % data.images.length;
+          renderLightboxFrame();
+        }
+
+        function renderProjects(projects) {
+          var grid = document.getElementById('projectsGrid');
+          grid.innerHTML = projects.map(buildCard).join('');
+          setupCardCarousels();
+        }
+
+        fetch('project_configuration.json')
+          .then(function (res) { return res.json(); })
+          .then(function (data) { renderProjects(data.projects || []); })
+          .catch(function (err) {
+            document.getElementById('projectsGrid').innerHTML =
+              '<p class="text-muted">Unable to load projects right now.</p>';
+            console.error('Failed to load project_configuration.json:', err);
+          });
+      })();
+      </script>
       <div class="shadow-1-strong bg-white my-5 p-5 section-panel" id="contact">
         <h2 class="h2 fw-light mb-4 section-heading"><strong><span class="text-decoration-underline">Contact</span></strong></h2>
         <div class="row mb-4">
@@ -205,6 +523,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
@@ -234,4 +553,3 @@
   <script src="scripts/main.js?ver=1.2.1"></script>
 </body>
 </html>
-

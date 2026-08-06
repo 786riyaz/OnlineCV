@@ -1,0 +1,469 @@
+{
+  "projects": [
+    {
+      "id": "tohfa-public",
+      "name": "TOHFA Public Application",
+      "category": "Web",
+      "summary": "Public-facing web app focused on customer engagement and service discovery.",
+      "description": "A modern public-facing application for service discovery, ticketing, and customer communication with a responsive UI and scalable backend.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "REST APIs"
+      ],
+      "images": [
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A01 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A02 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A03 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A04 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A05 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A06 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A07 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A08 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A09 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A10 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/A11 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/B01 New Ticket Creation.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/B02 New Ticket Creation.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/B03 New Ticket Creation.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/B04 New Ticket Creation.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/B05 New Ticket Creation.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/C01 Saved Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/C02 Saved Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/C03 Saved Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/D01 My Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/D02 My Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/E01 Update Ticket.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/E02 Update Ticket.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/F01 Submit Ticket.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/G01 Chatbot.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/G02 Chatbot.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/G03 Chatbot.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/G04 Chatbot.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/H01 Ticket View.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/H02 Ticket View.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Desktop/H03 Ticket View.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/A01 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/A02 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/A03 Dashboard.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/B01 New Complaint.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/B02 New Complaint.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/C01 My Complaints.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/D01 Saved Complaints.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/E01 View Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/E02 View Tickets.png",
+        "images/Freelance_Projects/TOHFA/Public_App/Mobile/F01 Chatbot.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Live Demo",
+          "url": "http://65.108.15.171:8080/"
+        }
+      ],
+      "highlights": [
+        "Responsive service experience",
+        "Ticket creation workflow",
+        "Chatbot support"
+      ],
+      "imageFallback": "TOHFA Public Application"
+    },
+    {
+      "id": "tohfa-admin",
+      "name": "TOHFA Admin Application",
+      "category": "Admin",
+      "summary": "Admin dashboard for managing content, operations, and workflow controls.",
+      "description": "A comprehensive admin portal for content management, ticket administration, alert control, scheduling, and operational oversight.",
+      "technologies": [
+        "Dashboard UI",
+        "Admin Panel",
+        "Operations"
+      ],
+      "images": [
+        "images/Freelance_Projects/TOHFA/Admin_App/01 Dashboard Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/02 Dashboard Cache Invalidate Button.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/11 All Tickets.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/12 Category Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/13 Priority Fitler.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/14 Status Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/15 Location Search.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/21 Pending Ticket Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/31 Ticket View Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/32 Edit Ticket Details.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/33 Edit Ticket Category.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/34 Edit Ticket Status.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/35 Edit Ticket Location.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/36 Edit Ticket Location.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/37 Edit Ticket Location.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/39 Edit Ticket Timeline.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/41 Category Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/42 Category Edit.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/43 Category Save.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/51 Location Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/52 Location Areas.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/53 Adding New Area.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/54 Adding New Area.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/55 Adding New Area.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/56 Location Removed.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/61 State & Code Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/62 State & Code Page Edit.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/71 Alert & Notice Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/72 Alert & Notice Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/73 Aleart Edit English.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/74 Aleart Edit Hindi.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/75 Aleart Edit Gujarati.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/81 Chatbot Message Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/82 Chatbot Message Edit English.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/83 Chatbot Message Edit Hindi.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/84 Chatbot Message Edit Gujarati.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/91 Notification Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/92 Notification Edit English.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/93 Notification Edit Hindi.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/94 Notification Edit Gujarati.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/A1 Translation Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/A2 Translation Edit.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/A3 Translation Section Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/B1 Location Translation Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/B2 Location Translation Edit.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/C1 Audit Log Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/C2 Audit Log Date Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/C3 Audit Log Admin Name Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/C4 Audit Log Action Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/C5 Audit Log Action Filter.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/D1 User Management Page.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/D2 Adding New User.png",
+        "images/Freelance_Projects/TOHFA/Admin_App/D3 Modify User Rank.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Open Admin Portal",
+          "url": "https://z9zs253p-3010.inc1.devtunnels.ms/dashboard"
+        }
+      ],
+      "highlights": [
+        "Ticket management",
+        "User management",
+        "Reports and admin tools"
+      ],
+      "imageFallback": "Tohfa Admin Application"
+    },
+    {
+      "id": "habit-tracker",
+      "name": "Daily Habit Tracker",
+      "category": "Productivity",
+      "summary": "A habit-building app for tracking daily routines, goals, and performance progress.",
+      "description": "A productivity-focused application that helps users build and maintain habits through routine tracking, daily goals, and dashboard insights.",
+      "technologies": [
+        "Productivity",
+        "Tracker",
+        "Mobile Web"
+      ],
+      "images": [
+        "images/Freelance_Projects/Habit_Tracker/00 Application Icon.jpg",
+        "images/Freelance_Projects/Habit_Tracker/11 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/12 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/13 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/14 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/15 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/16 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/17 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/20 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/21 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/22 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/23 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/24 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/25 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/26 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/27 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/28 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/29 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/30 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/31 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/32 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/33 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/34 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/41 Month View Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/51 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/52 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/53 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/54 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/55 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/56 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/57 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/58 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/59 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/60 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/61 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/62 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/63 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker/64 Setup Page.jpg"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "View App",
+          "url": "https://z9zs253p-3000.inc1.devtunnels.ms/tracker"
+        }
+      ],
+      "highlights": [
+        "Habit tracking",
+        "Dashboard analytics",
+        "Setup flow"
+      ],
+      "imageFallback": "Daily Habit Tracker"
+    },
+    {
+      "id": "lms",
+      "name": "LMS Platform",
+      "category": "Learning",
+      "summary": "Learning platform for video content delivery and educational engagement.",
+      "description": "An LMS platform built for managing learning content, video modules, priorities, and educational workflows.",
+      "technologies": [
+        "LMS",
+        "Video",
+        "Education"
+      ],
+      "images": [
+        "images/Freelance_Projects/Learning_Management/01_Priority_Page.png",
+        "images/Freelance_Projects/Learning_Management/02_Video_Page.png",
+        "images/Freelance_Projects/Learning_Management/03_Learning_Page.png",
+        "images/Freelance_Projects/Learning_Management/04_Notes_Page.png",
+        "images/Freelance_Projects/Learning_Management/05_Setting_Page.png",
+        "images/Freelance_Projects/Learning_Management/06_Setting_Page.png",
+        "images/Freelance_Projects/Learning_Management/11_Video_Page-Importing_Video.png",
+        "images/Freelance_Projects/Learning_Management/12_Video_Page-Imported_Video.png",
+        "images/Freelance_Projects/Learning_Management/13_Video_Page-Dashboard.png",
+        "images/Freelance_Projects/Learning_Management/14_Video_Page-Inserting_New_Video.png",
+        "images/Freelance_Projects/Learning_Management/15_Video_Page-Selecting_New_Topic.png",
+        "images/Freelance_Projects/Learning_Management/16_Video_Page-Video_Added_With_0_Priority.png",
+        "images/Freelance_Projects/Learning_Management/17_Video_Page-Searching_Video.png",
+        "images/Freelance_Projects/Learning_Management/18_Video_Page-Exporting_Video.png",
+        "images/Freelance_Projects/Learning_Management/21_Priority_Page-Importing_Excel.png",
+        "images/Freelance_Projects/Learning_Management/22_Priority_Page-Video_Added_With_New_Domain_Topic.png",
+        "images/Freelance_Projects/Learning_Management/23_Priority_Page-Filtering.png",
+        "images/Freelance_Projects/Learning_Management/24_Priority_Page-Editing.png",
+        "images/Freelance_Projects/Learning_Management/25_Priority_Page-Updating_Video.png",
+        "images/Freelance_Projects/Learning_Management/26_Priority_Page-Exporting_Excel.png",
+        "images/Freelance_Projects/Learning_Management/31_Database_Collection.png",
+        "images/Freelance_Projects/Learning_Management/32_Database_Collection.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Open LMS",
+          "url": "https://z9zs253p-3001.inc1.devtunnels.ms/videos"
+        }
+      ],
+      "highlights": [
+        "Video-based learning",
+        "Priority management",
+        "Data collection workflow"
+      ],
+      "imageFallback": "LMS Platform"
+    },
+    {
+      "id": "tv-repairing",
+      "name": "TV Repairing Website",
+      "category": "Business",
+      "summary": "Service website designed for local business presence and customer communication.",
+      "description": "A professional service website for a TV repair business with a clean landing page and contact-friendly layout.",
+      "technologies": [
+        "Website",
+        "Business",
+        "Landing Page"
+      ],
+      "images": [
+        "images/Freelance_Projects/tv-repairing.jpg"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Visit Website",
+          "url": "https://786riyazkhan.github.io/TV_Repairing/"
+        }
+      ],
+      "highlights": [
+        "Service-oriented design",
+        "Business contact flow",
+        "Mobile-friendly layout"
+      ],
+      "imageFallback": "TV Repairing Website"
+    },
+    {
+      "id": "nv-mukhwas",
+      "name": "NV Mukhwas",
+      "category": "Brand Site",
+      "summary": "A product-focused website for showcasing a food brand and offerings.",
+      "description": "A brand-focused website with product storytelling, menu structure, and WhatsApp-based communication features.",
+      "technologies": [
+        "Branding",
+        "Marketing",
+        "Website"
+      ],
+      "images": [
+        "images/Freelance_Projects/NV_Mukhwas/01_Hero_Page.png",
+        "images/Freelance_Projects/NV_Mukhwas/02_Description.png",
+        "images/Freelance_Projects/NV_Mukhwas/03_Predefined_Menu.png",
+        "images/Freelance_Projects/NV_Mukhwas/04_Custom_Menu.png",
+        "images/Freelance_Projects/NV_Mukhwas/05_WhatsApp_Message_Permission.png",
+        "images/Freelance_Projects/NV_Mukhwas/06_WhatsApp_Menu_Message.png",
+        "images/Freelance_Projects/NV_Mukhwas/07_WhatsApp_Custom_Menu.png",
+        "images/Freelance_Projects/NV_Mukhwas/07_WhatsApp_Custom_Permission.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "See Project",
+          "url": "https://786riyaz.github.io/NV-Mukhwas/"
+        }
+      ],
+      "highlights": [
+        "Brand presentation",
+        "Custom menu experience",
+        "WhatsApp integration"
+      ],
+      "imageFallback": "NV Mukhwas"
+    },
+    {
+      "id": "iram-wellness",
+      "name": "Iram Wellness Zone",
+      "category": "Wellness",
+      "summary": "Wellness website with a polished, service-oriented layout and content structure.",
+      "description": "A wellness-focused website designed to clearly present services and enhance visual trust for the brand.",
+      "technologies": [
+        "Wellness",
+        "Website",
+        "UI"
+      ],
+      "images": [
+        "images/Freelance_Projects/iram-wellness.jpg"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Visit Website",
+          "url": "https://786riyaz.github.io/Iram_Wellness_Zone/"
+        }
+      ],
+      "highlights": [
+        "Clean wellness UI",
+        "Service-focused content",
+        "Modern layout"
+      ],
+      "imageFallback": "Iram Wellness Zone"
+    },
+    {
+      "id": "kaya-yoga",
+      "name": "Kaya Yoga Platform",
+      "category": "Platform",
+      "summary": "Yoga platform with admin tools and a public website experience.",
+      "description": "A yoga platform with a public-facing website and a dedicated admin experience for members and operations.",
+      "technologies": [
+        "Yoga",
+        "Admin",
+        "Web"
+      ],
+      "images": [
+        "images/Freelance_Projects/Kaya_Admin/Add New Member Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Analytics Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Attendence Page.png",
+        "images/Freelance_Projects/Kaya_Admin/BirthDays Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Enquiry Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Events Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Expiring Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Member Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Nutrition Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Overview Page.png",
+        "images/Freelance_Projects/Kaya_Admin/PhysioTherapy Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Plans And Pricing Page 1.png",
+        "images/Freelance_Projects/Kaya_Admin/Plans And Pricing Page 2.png",
+        "images/Freelance_Projects/Kaya_Admin/Revenue Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Schedule Page 1.png",
+        "images/Freelance_Projects/Kaya_Admin/Schedule Page 2.png",
+        "images/Freelance_Projects/Kaya_Admin/Slot Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Studio Setup Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Task Page.png",
+        "images/Freelance_Projects/Kaya_Admin/User Management Page 1.png",
+        "images/Freelance_Projects/Kaya_Admin/User Management Page 2.png",
+        "images/Freelance_Projects/Kaya_Admin/WorkShop Page.png",
+        "images/Freelance_Projects/Kaya_Admin/Yoga Classes Page.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://786riyazkhan.github.io/Kaya-Yoga/"
+        },
+        {
+          "label": "Admin Panel",
+          "url": "https://bq8276gp-3000.inc1.devtunnels.ms/"
+        }
+      ],
+      "highlights": [
+        "Member management",
+        "Analytics dashboard",
+        "Yoga classes workflow"
+      ],
+      "imageFallback": "Kaya Yoga Platform"
+    },
+    {
+      "id": "hommer-ai",
+      "name": "Hommer AI Commerce Chatbot",
+      "category": "AI",
+      "summary": "AI-powered shopping assistant for product discovery and conversational commerce.",
+      "description": "An AI commerce experience that helps users discover products and receive recommendations through natural language conversation.",
+      "technologies": [
+        "OpenAI",
+        "Chatbot",
+        "E-commerce"
+      ],
+      "images": [],
+      "videos": [],
+      "links": [
+        {
+          "label": "Explore Product",
+          "url": "https://www.myhommer.com/ly_en/"
+        }
+      ],
+      "highlights": [
+        "Natural language search",
+        "Product recommendations",
+        "Conversational commerce"
+      ],
+      "imageFallback": "Hommer AI Commerce Chatbot"
+    },
+    {
+      "id": "smart-city",
+      "name": "Smart City Project",
+      "category": "IoT",
+      "summary": "Smart city automation project with sensor-based monitoring and real-time data collection.",
+      "description": "An IoT-based smart city showcase for parking, water management, waste management, and street lighting solutions.",
+      "technologies": [
+        "IoT",
+        "Sensors",
+        "Automation"
+      ],
+      "images": [
+        "images/Freelance_Projects/Smart_City/01_Smart_Parking_Diagram.jpg",
+        "images/Freelance_Projects/Smart_City/02_Smart_Water_Management_Diagram.jpg",
+        "images/Freelance_Projects/Smart_City/03_Smart_Waste_Management_Diagram.jpg",
+        "images/Freelance_Projects/Smart_City/04_Smart_Street_Light_Diagram.jpg"
+      ],
+      "videos": [
+        "images/Freelance_Projects/Smart_City/01_Smart_Parking.mp4",
+        "images/Freelance_Projects/Smart_City/02_Smart_Water_Management.mp4",
+        "images/Freelance_Projects/Smart_City/03_Smart_Waste_Management.mp4",
+        "images/Freelance_Projects/Smart_City/04_Smart_Street_Light.mp4"
+      ],
+      "links": [],
+      "highlights": [
+        "Smart parking",
+        "Water monitoring",
+        "Waste automation",
+        "Street light control"
+      ],
+      "imageFallback": "Smart City Project"
+    }
+  ]
+}

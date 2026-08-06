@@ -1,0 +1,195 @@
+Habit_Tracker\00 Application Icon.jpg
+Habit_Tracker\11 Tracker Page.jpg
+Habit_Tracker\12 Tracker Page.jpg
+Habit_Tracker\13 Tracker Page.jpg
+Habit_Tracker\14 Tracker Page.jpg
+Habit_Tracker\15 Tracker Page.jpg
+Habit_Tracker\16 Tracker Page.jpg
+Habit_Tracker\17 Tracker Page.jpg
+Habit_Tracker\20 ToDo Page.jpg
+Habit_Tracker\21 ToDo Page.jpg
+Habit_Tracker\22 ToDo Page.jpg
+Habit_Tracker\23 ToDo Page.jpg
+Habit_Tracker\24 ToDo Page.jpg
+Habit_Tracker\25 ToDo Page.jpg
+Habit_Tracker\26 ToDo Page.jpg
+Habit_Tracker\27 ToDo Page.jpg
+Habit_Tracker\28 ToDo Page.jpg
+Habit_Tracker\29 ToDo Page.jpg
+Habit_Tracker\30 ToDo Page.jpg
+Habit_Tracker\31 DashBoard Page.jpg
+Habit_Tracker\32 DashBoard Page.jpg
+Habit_Tracker\33 DashBoard Page.jpg
+Habit_Tracker\34 DashBoard Page.jpg
+Habit_Tracker\41 Month View Page.jpg
+Habit_Tracker\51 Setup Page.jpg
+Habit_Tracker\52 Setup Page.jpg
+Habit_Tracker\53 Setup Page.jpg
+Habit_Tracker\54 Setup Page.jpg
+Habit_Tracker\55 Setup Page.jpg
+Habit_Tracker\56 Setup Page.jpg
+Habit_Tracker\57 Setup Page.jpg
+Habit_Tracker\58 Setup Page.jpg
+Habit_Tracker\59 Setup Page.jpg
+Habit_Tracker\60 Setup Page.jpg
+Habit_Tracker\61 Setup Page.jpg
+Habit_Tracker\62 Setup Page.jpg
+Habit_Tracker\63 Setup Page.jpg
+Habit_Tracker\64 Setup Page.jpg
+Habit_Tracker\Habit Tracker Application v5.apk
+Kaya_Admin\Add New Member Page.png
+Kaya_Admin\Analytics Page.png
+Kaya_Admin\Attendence Page.png
+Kaya_Admin\BirthDays Page.png
+Kaya_Admin\Enquiry Page.png
+Kaya_Admin\Events Page.png
+Kaya_Admin\Expiring Page.png
+Kaya_Admin\Member Page.png
+Kaya_Admin\Nutrition Page.png
+Kaya_Admin\Overview Page.png
+Kaya_Admin\PhysioTherapy Page.png
+Kaya_Admin\Plans And Pricing Page 1.png
+Kaya_Admin\Plans And Pricing Page 2.png
+Kaya_Admin\Revenue Page.png
+Kaya_Admin\Schedule Page 1.png
+Kaya_Admin\Schedule Page 2.png
+Kaya_Admin\Slot Page.png
+Kaya_Admin\Studio Setup Page.png
+Kaya_Admin\Task Page.png
+Kaya_Admin\User Management Page 1.png
+Kaya_Admin\User Management Page 2.png
+Kaya_Admin\WorkShop Page.png
+Kaya_Admin\Yoga Classes Page.png
+Learning_Management\01_Priority_Page.png
+Learning_Management\02_Video_Page.png
+Learning_Management\03_Learning_Page.png
+Learning_Management\04_Notes_Page.png
+Learning_Management\05_Setting_Page.png
+Learning_Management\06_Setting_Page.png
+Learning_Management\11_Video_Page-Importing_Video.png
+Learning_Management\12_Video_Page-Imported_Video.png
+Learning_Management\13_Video_Page-Dashboard.png
+Learning_Management\14_Video_Page-Inserting_New_Video.png
+Learning_Management\15_Video_Page-Selecting_New_Topic.png
+Learning_Management\16_Video_Page-Video_Added_With_0_Priority.png
+Learning_Management\17_Video_Page-Searching_Video.png
+Learning_Management\18_Video_Page-Exporting_Video.png
+Learning_Management\21_Priority_Page-Importing_Excel.png
+Learning_Management\22_Priority_Page-Video_Added_With_New_Domain_Topic.png
+Learning_Management\23_Priority_Page-Filtering.png
+Learning_Management\24_Priority_Page-Editing.png
+Learning_Management\25_Priority_Page-Updating_Video.png
+Learning_Management\26_Priority_Page-Exporting_Excel.png
+Learning_Management\31_Database_Collection.png
+Learning_Management\32_Database_Collection.png
+NV_Mukhwas\01_Hero_Page.png
+NV_Mukhwas\02_Description.png
+NV_Mukhwas\03_Predefined_Menu.png
+NV_Mukhwas\04_Custom_Menu.png
+NV_Mukhwas\05_WhatsApp_Message_Permission.png
+NV_Mukhwas\06_WhatsApp_Menu_Message.png
+NV_Mukhwas\07_WhatsApp_Custom_Menu.png
+NV_Mukhwas\07_WhatsApp_Custom_Permission.png
+Smart_City\00_Smart_City-Technothon_PPT.pptx
+Smart_City\01_Smart_Parking.mp4
+Smart_City\01_Smart_Parking_Diagram.jpg
+Smart_City\02_Smart_Water_Management.mp4
+Smart_City\02_Smart_Water_Management_Diagram.jpg
+Smart_City\03_Smart_Waste_Management.mp4
+Smart_City\03_Smart_Waste_Management_Diagram.jpg
+Smart_City\04_Smart_Street_Light.mp4
+Smart_City\04_Smart_Street_Light_Diagram.jpg
+TOHFA\Admin_App\01 Dashboard Page.png
+TOHFA\Admin_App\02 Dashboard Cache Invalidate Button.png
+TOHFA\Admin_App\11 All Tickets.png
+TOHFA\Admin_App\12 Category Filter.png
+TOHFA\Admin_App\13 Priority Fitler.png
+TOHFA\Admin_App\14 Status Filter.png
+TOHFA\Admin_App\15 Location Search.png
+TOHFA\Admin_App\21 Pending Ticket Page.png
+TOHFA\Admin_App\31 Ticket View Page.png
+TOHFA\Admin_App\32 Edit Ticket Details.png
+TOHFA\Admin_App\33 Edit Ticket Category.png
+TOHFA\Admin_App\34 Edit Ticket Status.png
+TOHFA\Admin_App\35 Edit Ticket Location.png
+TOHFA\Admin_App\36 Edit Ticket Location.png
+TOHFA\Admin_App\37 Edit Ticket Location.png
+TOHFA\Admin_App\39 Edit Ticket Timeline.png
+TOHFA\Admin_App\41 Category Page.png
+TOHFA\Admin_App\42 Category Edit.png
+TOHFA\Admin_App\43 Category Save.png
+TOHFA\Admin_App\51 Location Page.png
+TOHFA\Admin_App\52 Location Areas.png
+TOHFA\Admin_App\53 Adding New Area.png
+TOHFA\Admin_App\54 Adding New Area.png
+TOHFA\Admin_App\55 Adding New Area.png
+TOHFA\Admin_App\56 Location Removed.png
+TOHFA\Admin_App\61 State & Code Page.png
+TOHFA\Admin_App\62 State & Code Page Edit.png
+TOHFA\Admin_App\71 Alert & Notice Page.png
+TOHFA\Admin_App\72 Alert & Notice Page.png
+TOHFA\Admin_App\73 Aleart Edit English.png
+TOHFA\Admin_App\74 Aleart Edit Hindi.png
+TOHFA\Admin_App\75 Aleart Edit Gujarati.png
+TOHFA\Admin_App\81 Chatbot Message Page.png
+TOHFA\Admin_App\82 Chatbot Message Edit English.png
+TOHFA\Admin_App\83 Chatbot Message Edit Hindi.png
+TOHFA\Admin_App\84 Chatbot Message Edit Gujarati.png
+TOHFA\Admin_App\91 Notification Page.png
+TOHFA\Admin_App\92 Notification Edit English.png
+TOHFA\Admin_App\93 Notification Edit Hindi.png
+TOHFA\Admin_App\94 Notification Edit Gujarati.png
+TOHFA\Admin_App\A1 Translation Page.png
+TOHFA\Admin_App\A2 Translation Edit.png
+TOHFA\Admin_App\A3 Translation Section Filter.png
+TOHFA\Admin_App\B1 Location Translation Page.png
+TOHFA\Admin_App\B2 Location Translation Edit.png
+TOHFA\Admin_App\C1 Audit Log Page.png
+TOHFA\Admin_App\C2 Audit Log Date Filter.png
+TOHFA\Admin_App\C3 Audit Log Admin Name Filter.png
+TOHFA\Admin_App\C4 Audit Log Action Filter.png
+TOHFA\Admin_App\C5 Audit Log Action Filter.png
+TOHFA\Admin_App\D1 User Management Page.png
+TOHFA\Admin_App\D2 Adding New User.png
+TOHFA\Admin_App\D3 Modify User Rank.png
+TOHFA\Public_App\Desktop\A01 Dashboard.png
+TOHFA\Public_App\Desktop\A02 Dashboard.png
+TOHFA\Public_App\Desktop\A03 Dashboard.png
+TOHFA\Public_App\Desktop\A04 Dashboard.png
+TOHFA\Public_App\Desktop\A05 Dashboard.png
+TOHFA\Public_App\Desktop\A06 Dashboard.png
+TOHFA\Public_App\Desktop\A07 Dashboard.png
+TOHFA\Public_App\Desktop\A08 Dashboard.png
+TOHFA\Public_App\Desktop\A09 Dashboard.png
+TOHFA\Public_App\Desktop\A10 Dashboard.png
+TOHFA\Public_App\Desktop\A11 Dashboard.png
+TOHFA\Public_App\Desktop\B01 New Ticket Creation.png
+TOHFA\Public_App\Desktop\B02 New Ticket Creation.png
+TOHFA\Public_App\Desktop\B03 New Ticket Creation.png
+TOHFA\Public_App\Desktop\B04 New Ticket Creation.png
+TOHFA\Public_App\Desktop\B05 New Ticket Creation.png
+TOHFA\Public_App\Desktop\C01 Saved Tickets.png
+TOHFA\Public_App\Desktop\C02 Saved Tickets.png
+TOHFA\Public_App\Desktop\C03 Saved Tickets.png
+TOHFA\Public_App\Desktop\D01 My Tickets.png
+TOHFA\Public_App\Desktop\D02 My Tickets.png
+TOHFA\Public_App\Desktop\E01 Update Ticket.png
+TOHFA\Public_App\Desktop\E02 Update Ticket.png
+TOHFA\Public_App\Desktop\F01 Submit Ticket.png
+TOHFA\Public_App\Desktop\G01 Chatbot.png
+TOHFA\Public_App\Desktop\G02 Chatbot.png
+TOHFA\Public_App\Desktop\G03 Chatbot.png
+TOHFA\Public_App\Desktop\G04 Chatbot.png
+TOHFA\Public_App\Desktop\H01 Ticket View.png
+TOHFA\Public_App\Desktop\H02 Ticket View.png
+TOHFA\Public_App\Desktop\H03 Ticket View.png
+TOHFA\Public_App\Mobile\A01 Dashboard.png
+TOHFA\Public_App\Mobile\A02 Dashboard.png
+TOHFA\Public_App\Mobile\A03 Dashboard.png
+TOHFA\Public_App\Mobile\B01 New Complaint.png
+TOHFA\Public_App\Mobile\B02 New Complaint.png
+TOHFA\Public_App\Mobile\C01 My Complaints.png
+TOHFA\Public_App\Mobile\D01 Saved Complaints.png
+TOHFA\Public_App\Mobile\E01 View Tickets.png
+TOHFA\Public_App\Mobile\E02 View Tickets.png
+TOHFA\Public_App\Mobile\F01 Chatbot.png
