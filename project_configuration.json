@@ -337,7 +337,14 @@
         "UI"
       ],
       "images": [
-        "images/Freelance_Projects/iram-wellness.jpg"
+        "images/Freelance_Projects/Iram_Wellness_Zone/01_Hero.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/02_About.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/03_Intro.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/04_Transformation.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/05_Services.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/06_Stories.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/07_FAQ.png",
+        "images/Freelance_Projects/Iram_Wellness_Zone/08_Footer.png"
       ],
       "videos": [],
       "links": [
