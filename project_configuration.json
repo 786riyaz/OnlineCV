@@ -274,13 +274,21 @@
         "Landing Page"
       ],
       "images": [
-        "images/Freelance_Projects/tv-repairing.jpg"
+        "images/Freelance_Projects/TV_Repair/01_Hero.png",
+        "images/Freelance_Projects/TV_Repair/02_Stats.png",
+        "images/Freelance_Projects/TV_Repair/03_Services.png",
+        "images/Freelance_Projects/TV_Repair/04_Process.png",
+        "images/Freelance_Projects/TV_Repair/05_Brands.png",
+        "images/Freelance_Projects/TV_Repair/06_Review.png",
+        "images/Freelance_Projects/TV_Repair/07_Booking.png",
+        "images/Freelance_Projects/TV_Repair/08_Booking.png",
+        "images/Freelance_Projects/TV_Repair/09_Footer.png"
       ],
       "videos": [],
       "links": [
         {
           "label": "Visit Website",
-          "url": "https://786riyazkhan.github.io/TV_Repairing/"
+          "url": "https://786riyaz.github.io/Bilal-TV-Repairing/"
         }
       ],
       "highlights": [
@@ -425,7 +433,17 @@
         "Chatbot",
         "E-commerce"
       ],
-      "images": [],
+      "images": [
+        "images/Freelance_Projects/Hommer/01_HomePage.png",
+        "images/Freelance_Projects/Hommer/02_Bot.png",
+        "images/Freelance_Projects/Hommer/03_Chat1.png",
+        "images/Freelance_Projects/Hommer/04_Chat1.png",
+        "images/Freelance_Projects/Hommer/05_Chat1.png",
+        "images/Freelance_Projects/Hommer/06_Chat1.png",
+        "images/Freelance_Projects/Hommer/07_Chat1.png",
+        "images/Freelance_Projects/Hommer/08_Chat2.png",
+        "images/Freelance_Projects/Hommer/09_Chat2.png"
+      ],
       "videos": [],
       "links": [
         {
