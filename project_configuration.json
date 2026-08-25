@@ -58,7 +58,7 @@
       "links": [
         {
           "label": "Live Demo",
-          "url": "http://65.108.15.171:8080/"
+          "url": "https://civic-tohfa.vercel.app/"
         }
       ],
       "highlights": [
@@ -138,7 +138,7 @@
       "links": [
         {
           "label": "Open Admin Portal",
-          "url": "https://z9zs253p-3010.inc1.devtunnels.ms/dashboard"
+          "url": "https://tohfa-admin.vercel.app/login"
         }
       ],
       "highlights": [
@@ -149,8 +149,58 @@
       "imageFallback": "Tohfa Admin Application"
     },
     {
+      "id": "personal-habit-tracker",
+      "name": "Daily Habit & Activity Tracker - Web",
+      "category": "Productivity",
+      "summary": "A personal activity and habit tracker for managing daily and weekly routines, monitoring progress, and maintaining activity history directly in the browser.",
+      "description": "A React-based personal activity and habit tracking application designed to manage daily and weekly routines. The application stores data locally in the browser using localStorage, allowing activities, completion history, custom activity metadata, and preferences to persist without a backend. Users can configure activities, assign categories and schedules, track completion by date, review progress through dashboards and monthly views, manage ToDo items, switch between multiple themes, and export or import their complete tracker data as a JSON backup.",
+      "technologies": [
+        "React",
+        "React Router",
+        "LocalStorage"
+      ],
+      "images": [
+        "images/Freelance_Projects/Habit_Tracker_Web/01_Activity_Tracker_Purple_Theme.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/01_Activity_Tracker_Black_Theme.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/01_Activity_Tracker_White_Theme.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/02_Activity_Tracker_Task_Marking.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/03_To_Do_Page.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/04_Dashboard_Page_Review.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/05_Month_View.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/06_Setup_Page_Daily_Task.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/07_Setup_Page_Weekly_Task.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/08_Expot_Data.png",
+        "images/Freelance_Projects/Habit_Tracker_Web/09_Import_Data.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "View App",
+          "url": "https://habit-tracker-riyaz.vercel.app/tracker"
+        }
+      ],
+      "highlights": [
+        "Daily and weekly habit tracking",
+        "Browser-based local data persistence",
+        "Custom activity creation and management",
+        "Activity categories with icons and colors",
+        "Custom activity schedules and times",
+        "Completion history tracking by date",
+        "Progress dashboard with completion statistics",
+        "Monthly activity tracking view",
+        "Daily and weekly activity configuration",
+        "Integrated ToDo management",
+        "Light, dark, and purple themes",
+        "JSON data export and backup",
+        "JSON data import and restore",
+        "Responsive user interface",
+        "No backend or database required"
+      ],
+      "imageFallback": "Personal Activity and Habit Tracker"
+    },
+    {
       "id": "habit-tracker",
-      "name": "Daily Habit Tracker",
+      "name": "Daily Habit & Activity Tracker - App",
       "category": "Productivity",
       "summary": "A habit-building app for tracking daily routines, goals, and performance progress.",
       "description": "A productivity-focused application that helps users build and maintain habits through routine tracking, daily goals, and dashboard insights.",
@@ -160,50 +210,50 @@
         "Mobile Web"
       ],
       "images": [
-        "images/Freelance_Projects/Habit_Tracker/00 Application Icon.jpg",
-        "images/Freelance_Projects/Habit_Tracker/11 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/12 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/13 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/14 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/15 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/16 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/17 Tracker Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/20 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/21 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/22 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/23 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/24 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/25 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/26 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/27 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/28 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/29 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/30 ToDo Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/31 DashBoard Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/32 DashBoard Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/33 DashBoard Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/34 DashBoard Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/41 Month View Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/51 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/52 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/53 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/54 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/55 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/56 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/57 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/58 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/59 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/60 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/61 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/62 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/63 Setup Page.jpg",
-        "images/Freelance_Projects/Habit_Tracker/64 Setup Page.jpg"
+        "images/Freelance_Projects/Habit_Tracker_App/00 Application Icon.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/11 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/12 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/13 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/14 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/15 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/16 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/17 Tracker Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/20 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/21 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/22 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/23 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/24 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/25 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/26 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/27 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/28 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/29 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/30 ToDo Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/31 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/32 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/33 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/34 DashBoard Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/41 Month View Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/51 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/52 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/53 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/54 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/55 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/56 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/57 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/58 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/59 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/60 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/61 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/62 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/63 Setup Page.jpg",
+        "images/Freelance_Projects/Habit_Tracker_App/64 Setup Page.jpg"
       ],
       "videos": [],
       "links": [
         {
           "label": "View App",
-          "url": "https://z9zs253p-3000.inc1.devtunnels.ms/tracker"
+          "url": "https://habit-tracker-riyaz.vercel.app/tracker"
         }
       ],
       "highlights": [
@@ -252,7 +302,7 @@
       "links": [
         {
           "label": "Open LMS",
-          "url": "https://z9zs253p-3001.inc1.devtunnels.ms/videos"
+          "url": "https://learning-management-riyaz.vercel.app"
         }
       ],
       "highlights": [
@@ -412,7 +462,7 @@
         },
         {
           "label": "Admin Panel",
-          "url": "https://bq8276gp-3000.inc1.devtunnels.ms/"
+          "url": "https://kayahaus.in/"
         }
       ],
       "highlights": [
@@ -489,6 +539,71 @@
         "Street light control"
       ],
       "imageFallback": "Smart City Project"
+    },
+    {
+      "id": "ludo-game",
+      "name": "Private Ludo",
+      "category": "Game",
+      "summary": "Real-time private multiplayer Ludo game with synchronized gameplay, customizable game modes, in-game chat, reaction, sound effect and interactive animations.",
+      "description": "A private real-time multiplayer Ludo game built with Next.js, React, Node.js, and Socket.IO. The game provides a host-controlled private table where players can be assigned colors, configure game rules, and play together across devices with server-authoritative synchronization of dice rolls, turns, token positions, captures, and game state. It also includes real-time chat, typing indicators, emoji reactions, animated token movement, 3D dice, sound effects, team-based gameplay, and automatic move handling.",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Socket.IO",
+        "WebSockets"
+      ],
+      "images": [
+        "images/Freelance_Projects/Private_Ludo_Game/01_Login_Screen.png",
+        "images/Freelance_Projects/Private_Ludo_Game/02_Room_Page.png",
+        "images/Freelance_Projects/Private_Ludo_Game/03_Creating_Local_Player.png",
+        "images/Freelance_Projects/Private_Ludo_Game/04_Local_Player_Created.png",
+        "images/Freelance_Projects/Private_Ludo_Game/05_Online_Player_Joined.png",
+        "images/Freelance_Projects/Private_Ludo_Game/06_Online_Player_Visible_on_Room_Creation.png",
+        "images/Freelance_Projects/Private_Ludo_Game/07_Assigned_Color.png",
+        "images/Freelance_Projects/Private_Ludo_Game/08_Game_Started.png",
+        "images/Freelance_Projects/Private_Ludo_Game/09_Chat_Option.png",
+        "images/Freelance_Projects/Private_Ludo_Game/10_Host_Sending_Message_in_Chat_Room.png",
+        "images/Freelance_Projects/Private_Ludo_Game/11_Host_Message_Visible_To_All.png",
+        "images/Freelance_Projects/Private_Ludo_Game/12_Players_Sending_Message.png",
+        "images/Freelance_Projects/Private_Ludo_Game/13_Player_Message_Visible_to_All.png",
+        "images/Freelance_Projects/Private_Ludo_Game/14_Players_Reactions.png",
+        "images/Freelance_Projects/Private_Ludo_Game/15_Players_Turn.png",
+        "images/Freelance_Projects/Private_Ludo_Game/16_Six_to_Open.png",
+        "images/Freelance_Projects/Private_Ludo_Game/17_Auto_Movement.png",
+        "images/Freelance_Projects/Private_Ludo_Game/18_Token_Selection_for_6.png",
+        "images/Freelance_Projects/Private_Ludo_Game/19_Token_Selection_Normally.png",
+        "images/Freelance_Projects/Private_Ludo_Game/20_End_Game_Prompt.png"
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Play Game",
+          "url": "https://private-ludo-game.onrender.com/login"
+        }
+      ],
+      "highlights": [
+        "Real-time cross-device multiplayer",
+        "Private host-controlled game room",
+        "Server-authoritative game state synchronization",
+        "Real-time token position tracking",
+        "Real-time dice and turn synchronization",
+        "2-4 player full support",
+        "Classic and quick game modes",
+        "Individual and team-based gameplay",
+        "Customizable game rules and settings",
+        "Token capture and safe-zone mechanics",
+        "Extra-turn and exact-finish rules",
+        "Automatic resolution of equivalent moves",
+        "Player connection and disconnection tracking",
+        "In-game real-time chat",
+        "Typing indicators",
+        "Emoji reactions",
+        "3D animated dice",
+        "Smooth token movement and capture animations",
+        "Sound effects for dice, moves, captures, safe zones, and victory",
+        "Auto-roll gameplay option"
+      ],
+      "imageFallback": "Private Real-Time Multiplayer Ludo Game"
     }
   ]
 }
