@@ -73,6 +73,7 @@
       "name": "TOHFA Admin Application",
       "category": "Admin",
       "summary": "Admin dashboard for managing content, operations, and workflow controls.",
+      "creds": "UserName :: admin ||||| Password :: Admin123",
       "description": "A comprehensive admin portal for content management, ticket administration, alert control, scheduling, and operational oversight.",
       "technologies": [
         "Dashboard UI",
@@ -458,7 +459,7 @@
       "links": [
         {
           "label": "Website",
-          "url": "https://786riyazkhan.github.io/Kaya-Yoga/"
+          "url": "https://book.kayahaus.in/"
         },
         {
           "label": "Admin Panel",
@@ -477,6 +478,7 @@
       "name": "Hommer AI Commerce Chatbot",
       "category": "AI",
       "summary": "AI-powered shopping assistant for product discovery and conversational commerce.",
+      "creds": "Show Me Products ----- I want floor standing AC ----- Details of ID 001.009.001.005 ----- Add product 001.009.001.005 to my cart",
       "description": "An AI commerce experience that helps users discover products and receive recommendations through natural language conversation.",
       "technologies": [
         "OpenAI",
@@ -545,6 +547,7 @@
       "name": "Private Ludo",
       "category": "Game",
       "summary": "Real-time private multiplayer Ludo game with synchronized gameplay, customizable game modes, in-game chat, reaction, sound effect and interactive animations.",
+      "creds": "UserName :: Riyaz ||||| Password :: admin123",
       "description": "A private real-time multiplayer Ludo game built with Next.js, React, Node.js, and Socket.IO. The game provides a host-controlled private table where players can be assigned colors, configure game rules, and play together across devices with server-authoritative synchronization of dice rolls, turns, token positions, captures, and game state. It also includes real-time chat, typing indicators, emoji reactions, animated token movement, 3D dice, sound effects, team-based gameplay, and automatic move handling.",
       "technologies": [
         "Next.js",
