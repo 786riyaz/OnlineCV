@@ -474,6 +474,38 @@
       "imageFallback": "Kaya Yoga Platform"
     },
     {
+      "id": "smart-city",
+      "name": "Smart City Project",
+      "category": "IoT",
+      "summary": "Smart city automation project with sensor-based monitoring and real-time data collection.",
+      "description": "An IoT-based smart city showcase for parking, water management, waste management, and street lighting solutions.",
+      "technologies": [
+        "IoT",
+        "Sensors",
+        "Automation"
+      ],
+      "images": [
+        "images/Freelance_Projects/Smart_City/01_Smart_Parking_Diagram.jpg",
+        "images/Freelance_Projects/Smart_City/02_Smart_Water_Management_Diagram.jpg",
+        "images/Freelance_Projects/Smart_City/03_Smart_Waste_Management_Diagram.jpg",
+        "images/Freelance_Projects/Smart_City/04_Smart_Street_Light_Diagram.jpg"
+      ],
+      "videos": [
+        "images/Freelance_Projects/Smart_City/01_Smart_Parking.mp4",
+        "images/Freelance_Projects/Smart_City/02_Smart_Water_Management.mp4",
+        "images/Freelance_Projects/Smart_City/03_Smart_Waste_Management.mp4",
+        "images/Freelance_Projects/Smart_City/04_Smart_Street_Light.mp4"
+      ],
+      "links": [],
+      "highlights": [
+        "Smart parking",
+        "Water monitoring",
+        "Waste automation",
+        "Street light control"
+      ],
+      "imageFallback": "Smart City Project"
+    },
+    {
       "id": "hommer-ai",
       "name": "Hommer AI Commerce Chatbot",
       "category": "AI",
@@ -509,38 +541,6 @@
         "Conversational commerce"
       ],
       "imageFallback": "Hommer AI Commerce Chatbot"
-    },
-    {
-      "id": "smart-city",
-      "name": "Smart City Project",
-      "category": "IoT",
-      "summary": "Smart city automation project with sensor-based monitoring and real-time data collection.",
-      "description": "An IoT-based smart city showcase for parking, water management, waste management, and street lighting solutions.",
-      "technologies": [
-        "IoT",
-        "Sensors",
-        "Automation"
-      ],
-      "images": [
-        "images/Freelance_Projects/Smart_City/01_Smart_Parking_Diagram.jpg",
-        "images/Freelance_Projects/Smart_City/02_Smart_Water_Management_Diagram.jpg",
-        "images/Freelance_Projects/Smart_City/03_Smart_Waste_Management_Diagram.jpg",
-        "images/Freelance_Projects/Smart_City/04_Smart_Street_Light_Diagram.jpg"
-      ],
-      "videos": [
-        "images/Freelance_Projects/Smart_City/01_Smart_Parking.mp4",
-        "images/Freelance_Projects/Smart_City/02_Smart_Water_Management.mp4",
-        "images/Freelance_Projects/Smart_City/03_Smart_Waste_Management.mp4",
-        "images/Freelance_Projects/Smart_City/04_Smart_Street_Light.mp4"
-      ],
-      "links": [],
-      "highlights": [
-        "Smart parking",
-        "Water monitoring",
-        "Waste automation",
-        "Street light control"
-      ],
-      "imageFallback": "Smart City Project"
     },
     {
       "id": "ludo-game",
@@ -706,36 +706,38 @@
       "id": "netflix-clone",
       "name": "Netflix Clone",
       "category": "Streaming",
-      "summary": "Real-time private multiplayer Ludo game with synchronized gameplay, customizable game modes, in-game chat, reaction, sound effect and interactive animations.",
-      "creds": "UserName :: test.user@gmail.com ||||| Password :: 12345678",
-      "description": "A private real-time multiplayer Ludo game built with Next.js, React, Node.js, and Socket.IO. The game provides a host-controlled private table where players can be assigned colors, configure game rules, and play together across devices with server-authoritative synchronization of dice rolls, turns, token positions, captures, and game state. It also includes real-time chat, typing indicators, emoji reactions, animated token movement, 3D dice, sound effects, team-based gameplay, and automatic move handling.",
+      "summary": "Self-hosted Netflix-style video streaming platform for browsing, searching, and playing a personal video library with watch progress, thumbnails, subtitles, multiple audio tracks, and administrator-controlled media management.",
+      "creds": "UserName :: Guest ||||| Password :: 00000000",
+      "description": "A full-stack Netflix-inspired self-hosted video streaming platform built with Next.js and TypeScript for managing and watching a personal local video library. The application recursively scans configured folders, generates video metadata and thumbnails, organizes content by folders, and provides a Netflix-style browsing experience with search, sorting, recently added videos, continue watching, watch progress, and responsive video playback. The custom player supports seeking, playback speed, volume control, fullscreen, picture-in-picture, keyboard shortcuts, double-click seeking, subtitle selection, multiple audio tracks, and automatic progress saving. The platform also includes role-based authentication with Guest and Admin access. Guests can browse, search, and watch videos, while administrators can manage the video library by renaming, moving, deleting, changing the library folder, and optimizing videos using FFmpeg. Video optimization supports transcoding and fast-start processing for improved playback compatibility, while HTTP range requests enable efficient streaming and seeking of large video files.",
       "technologies": [
-        "Next.js",
-        "AWS S3",
-        "Socket.IO",
-        "WebSockets"
+        "Stream",
+        "File System API",
+        "JWT"
       ],
       "images": [
-        "images/Freelance_Projects/Private_Ludo_Game/01_Login_Screen.png",
-        "images/Freelance_Projects/Private_Ludo_Game/02_Room_Page.png",
-        "images/Freelance_Projects/Private_Ludo_Game/03_Creating_Local_Player.png",
-        "images/Freelance_Projects/Private_Ludo_Game/04_Local_Player_Created.png",
-        "images/Freelance_Projects/Private_Ludo_Game/05_Online_Player_Joined.png",
-        "images/Freelance_Projects/Private_Ludo_Game/06_Online_Player_Visible_on_Room_Creation.png",
-        "images/Freelance_Projects/Private_Ludo_Game/07_Assigned_Color.png",
-        "images/Freelance_Projects/Private_Ludo_Game/08_Game_Started.png",
-        "images/Freelance_Projects/Private_Ludo_Game/09_Chat_Option.png",
-        "images/Freelance_Projects/Private_Ludo_Game/10_Host_Sending_Message_in_Chat_Room.png",
-        "images/Freelance_Projects/Private_Ludo_Game/11_Host_Message_Visible_To_All.png",
-        "images/Freelance_Projects/Private_Ludo_Game/12_Players_Sending_Message.png",
-        "images/Freelance_Projects/Private_Ludo_Game/13_Player_Message_Visible_to_All.png",
-        "images/Freelance_Projects/Private_Ludo_Game/14_Players_Reactions.png",
-        "images/Freelance_Projects/Private_Ludo_Game/15_Players_Turn.png",
-        "images/Freelance_Projects/Private_Ludo_Game/16_Six_to_Open.png",
-        "images/Freelance_Projects/Private_Ludo_Game/17_Auto_Movement.png",
-        "images/Freelance_Projects/Private_Ludo_Game/18_Token_Selection_for_6.png",
-        "images/Freelance_Projects/Private_Ludo_Game/19_Token_Selection_Normally.png",
-        "images/Freelance_Projects/Private_Ludo_Game/20_End_Game_Prompt.png"
+        "images/Freelance_Projects/Netflix_Clone/01 Admin Login.png",
+        "images/Freelance_Projects/Netflix_Clone/02 Videos List 1.png",
+        "images/Freelance_Projects/Netflix_Clone/02 Videos List 2.png",
+        "images/Freelance_Projects/Netflix_Clone/03 Sorting.png",
+        "images/Freelance_Projects/Netflix_Clone/04 Folders.png",
+        "images/Freelance_Projects/Netflix_Clone/05 Searching.png",
+        "images/Freelance_Projects/Netflix_Clone/06 Folder View.png",
+        "images/Freelance_Projects/Netflix_Clone/06 List View.png",
+        "images/Freelance_Projects/Netflix_Clone/06 Tile View.png",
+        "images/Freelance_Projects/Netflix_Clone/07 Library Folder Selection 1.png",
+        "images/Freelance_Projects/Netflix_Clone/07 Library Folder Selection 3.png",
+        "images/Freelance_Projects/Netflix_Clone/10 Guest Login.png",
+        "images/Freelance_Projects/Netflix_Clone/11 No Folder Access.png",
+        "images/Freelance_Projects/Netflix_Clone/12 Video Player.png",
+        "images/Freelance_Projects/Netflix_Clone/13 Audio Switching.png",
+        "images/Freelance_Projects/Netflix_Clone/14 SubTitle Switching.png",
+        "images/Freelance_Projects/Netflix_Clone/15 Download Video.png",
+        "images/Freelance_Projects/Netflix_Clone/16 Delete Video 1.png",
+        "images/Freelance_Projects/Netflix_Clone/16 Delete Video 2.png",
+        "images/Freelance_Projects/Netflix_Clone/16 Delete Video 3.png",
+        "images/Freelance_Projects/Netflix_Clone/17 Keyboard Shortcuts.png",
+        "images/Freelance_Projects/Netflix_Clone/18 PIP Player.png",
+        "images/Freelance_Projects/Netflix_Clone/19 Video Actions.png"
       ],
       "videos": [],
       "links": [
@@ -745,28 +747,61 @@
         }
       ],
       "highlights": [
-        "Real-time cross-device multiplayer",
-        "Private host-controlled game room",
-        "Server-authoritative game state synchronization",
-        "Real-time token position tracking",
-        "Real-time dice and turn synchronization",
-        "2-4 player full support",
-        "Classic and quick game modes",
-        "Individual and team-based gameplay",
-        "Customizable game rules and settings",
-        "Token capture and safe-zone mechanics",
-        "Extra-turn and exact-finish rules",
-        "Automatic resolution of equivalent moves",
-        "Player connection and disconnection tracking",
-        "In-game real-time chat",
-        "Typing indicators",
-        "Emoji reactions",
-        "3D animated dice",
-        "Smooth token movement and capture animations",
-        "Sound effects for dice, moves, captures, safe zones, and victory",
-        "Auto-roll gameplay option"
+        "Netflix-style responsive video library",
+        "Self-hosted personal video streaming",
+        "Guest and Admin role-based authentication",
+        "Recursive folder scanning",
+        "Automatic video metadata extraction",
+        "Automatic video thumbnail generation",
+        "Support for multiple video formats",
+        "Netflix-style browse, grid, list, and folder views",
+        "Search videos and folders",
+        "Sort videos by name, date, and size",
+        "Recently added videos",
+        "Continue watching section",
+        "Persistent watch progress",
+        "Automatic playback position saving",
+        "Watched video tracking",
+        "Custom HTML5 video player",
+        "Interactive playback timeline",
+        "Real-time playback timestamp",
+        "Playback speed control",
+        "Volume control and mute preference",
+        "Fullscreen playback",
+        "Picture-in-picture playback",
+        "Keyboard playback shortcuts",
+        "Double-click ±10 second seeking",
+        "Touch-friendly mobile controls",
+        "Auto-hiding player controls",
+        "Multiple audio track support",
+        "Audio language and track selection",
+        "Subtitle track detection",
+        "Subtitle extraction to WebVTT",
+        "Video codec and resolution detection",
+        "Video bitrate detection",
+        "Variable frame-rate detection",
+        "Automatic optimization detection",
+        "FFmpeg-powered video optimization",
+        "FFmpeg-powered video transcoding",
+        "Fast-start optimization for compatible videos",
+        "Optimization progress tracking",
+        "HTTP Range Request video streaming",
+        "Efficient seeking for large video files",
+        "Conditional video caching with ETag support",
+        "Video download support",
+        "Admin-only video rename functionality",
+        "Admin-only folder move functionality",
+        "Admin-only video deletion",
+        "Admin-only library folder configuration",
+        "Admin-only video optimization",
+        "Protected filesystem browsing",
+        "Path traversal protection",
+        "Persistent library scanning cache",
+        "Automatic cleanup of deleted video cache data",
+        "Dark Netflix-inspired interface",
+        "Responsive desktop and mobile layout"
       ],
-      "imageFallback": "Private Real-Time Multiplayer Ludo Game"
+      "imageFallback": "Netflix-Style Self-Hosted Video Streaming Platform"
     }
   ]
 }
